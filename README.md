@@ -1,29 +1,20 @@
 # Problem Set 1: Getting Started
 
-## Part 1: Create GitHub account
+### Part 1: Course Survey
 
-## Part 2: Create Slack account
+1. Take [this short survey](https://goo.gl/forms/LhhLJGlqhy1kfT7q1).
+
+2. Take a screenshot of the page you see after you submit your survey response.
+
+### Part 2: Create a GitHub account
+1. If you do not have a GitHub account, create one [here](https://github.com/join?source=header-home).
+
+2. Once you have a GitHub account, edit your profile so that the Name associated with your GitHub user ID *exactly matches* your name in Canvas. We must know the name associated with your GitHub ID so that we can enter your grades correctly in the Canvas gradebook. Go to GitHub, click on the funny geometric icon (or whatever photo you might already have uploaded) in the upper right corner, and select Settings.   In the Name field of your Public Profile, enter your name as it appears in Canvas. 
+
+### Part 3: Submit to GitHub
+
+## Part 3: Create Slack account
 
 ## Part 3: Accept the invitation to Problem Set 1 from GitHub classroom
 ENTER THE URL HERE WHEN READY, EMILY
 
-## Part 3: Download, Install, and Configure Intellij IDEA
-
-1. Download
-2. Double click to install and follow directions (e.g., drag to Applications folder on a Mac)
-3. “Do not import settings” radio button
-4. Confirm and continue
-5. Don’t send usage statistics (unless you want to)
-6. Pick Darcula or Light (your choice)
-7. Choose keymaps you prefer (I chose "I’ve never used IDEA”)
-8. Don’t create launcher script (We'll get to this later in the course.)
-9. In Version Controls square, click Customize, and uncheck CVS, Mercurial, and Subversion
-10. Skip featured plugins by just clicking “Start using Intellij IDEA"
-
-## Part 4: Your First Project
-
-1. "Import" Project option
-2. Click "Check out from Version Control"
-3. Click on the "Log in to GitHub" button and log in with the credentials you created above in Part 1
-4. Enter the URL from your GitHub Classroom repo for PS1 (SCREENSHOTS!!!)
-5. In the next dialog window, adjust the Project Location. I like to create a folder on my Desktop for the class, then a folder for each problem set in that folder. On my Mac, I would do this by changing the "Project Location" path to "
