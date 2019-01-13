@@ -51,10 +51,12 @@ javac 1.8.0_191
 
 ```
 
+10. If you get an error message (e.g., "command java not found") or if the numbers are different (e.g., java 1.7...), then something is not right. Email the instructor and the TAs.
+
 #### Max OSX users ####
 1. Launch a Terminal. You can do this by finding the Terminal app in your Applications folder, or by going up to the magnifying glass in the upper right corner of your screen and then searching for Terminal.
 
-2. At the prompt in Termianl, type ``java -version`` and you should see something like this:
+2. At the prompt in Terminal, type ``java -version`` and you should see something like this:
 
 ```java
 
@@ -73,24 +75,77 @@ javac 1.8.0_191
 
 ```
 
+4. If you get an error message (e.g., "command java not found") or if the numbers are different (e.g., java 1.7...), then something is not right. Email the instructor and the TAs.
 
-### Part 6: Using GitHub 
+
+### Part 4: Install and configure Atom
+
+In this course we'll be using GitHub's Atom editor to write our Java code, and we'll be using git and GitHub to distribute and collect problem sets. Fortunately, git and GitHub are nicely integrated into the Atom editor. You can find a lot of [video tutorials on using Atom](https://www.leveluptutorials.com/tutorials/atom-editor-tutorials) though you probably won't need much guidance since we'll be using only a small part of its functionality.
+
+1. [Download Atom](https://atom.io). Double click the downloaded file unzip it (if necessary), then move Atom to a place on your computer where it will be easy to find (e.g., in the Applications folder or on your desktop).
+
+2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame. (If all these windows keep popping up when start Atom, you can turn them off in the Preferences and by clicking on the ``Do not show Welcome message`` on the Welcome tab.)
+
+3. You now need to install an Atom package that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu. You can also access the settings via a keyboard shortcut: in MacOS hold down the ``command``key and type a comma; in Windows, hold down the ``control`` key and type a comma.
+
+<img src="img/atommenu.png" width="300"  />
+
+4. On the left of the Settings area, you’ll see a menu with items like Core, Editor, URI Handling, and so on. Click on the menu item that says Install, which has a plus-sign icon next to it.
+
+<img src="img/install.png" width="600"  />
+
+5. In the search box that appears, enter ``platformio-ide-terminal``. Click Install button for ``platform-ide-terminal``, and wait for installation to complete.
+
+
+### Part 5: Get a local copy of the repository from GitHub
+
 1. Create a folder on your computer for this class called ``CS2`` or ``CS1102``. I have mine on my Desktop so it's easy to find, but you are free to put it wherever is convenient for you.
 
-2. Remember how you got here by creating a repository after accepting an invitation from GitHub Classroom? Look up at the top of this page, and locate the green ``Clone or download`` on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, as shown below.
+2. Look up at the top of this webpage you are on right now, and locate the green ``Clone or download`` on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, which will look something like this, below:
 
 <img src="img/clone.png" width="700"  />
 
-4. You will need the URL in Part 5, so paste it somewhere you can easily access it in a few minutes. And of course, you can always find it again by just going to github.com and selecting this problem set repository. 
+3. In Atom, go to ``Packages -> Command Palette -> Toggle``.
+
+4. In the pop-up window that opens, start typing ``GitHub``, and the GitHub: commands will appear. Select ``GitHub: Clone``.
+
+5. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 in the second box.
+
+6. Click the ``Clone`` button. This will copy your personal ps0.5 repository to your computer. 
+
+**NOTE:** If you end up with an empty repository following theese instructions, do one of the following (1) [use the GitHub Desktop app](https://desktop.github.com) to do your cloning (recommended for Windows users); or (2) in Atom, go to ``Packages -> platform-ide-terminal -> New Terminal``; then type ``git clone`` followed by the link to your repository, enter your GitHub username and password when prompted. Your repository will be cloned to your home directory.
 
 
+### Part 6: Edit a file and push edits to GitHub
 
-### Part 5: Downloading and installing Atom
+1. If you just did Part 5, you should see the contents of the repository in Atom. If you can't see the ps0.5 repository, then go to `File -> Open`, and navigate to your class folder, where you should find your local respoitory. Select it and click ``Open``.
+
+2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an empty pane on the right. (Feel free to close any of the pesky Welcome tabs and panes that Atom likes to open up.)
+
+<img src="img/atom1.png" width="700"  />
 
 
+3. Click on ``src`` to view the code for this assignment, then click on ``HelloWorld.java``. code will appear in the panel on the right. Find where you see this in the code:
 
-### Part 6: Writing your first Java program
+```bash
+System.out.println("Hello, World!")
+```
 
+Replace the words ``Hello, World!`` with your favorite greeting.
 
+4. From the ``File`` menu, select ``Save`` (or use your usual keyboard shortcut for saving, like command-s in MacOS or control-s in Windows).
 
-### Part 7: Submitting your first problem set to GitHub Classroom
+5. Go to ``Packages -> GitHub -> Toggle Git Tab``.
+
+6. The Git tab will open, and you'll see something like this, below. Click ``Stage all``.
+
+<img src="img/atom2.png" width="700"  />
+
+7. Type a comment explaining what you did and why where it says ``Commit message``.
+
+8. Click ``Commit to master``.
+
+9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. 
+
+9. Go to GitHub and find your respository for this problem set. You should see the changes reflected in your problem set repository and see ``last updated 1 minute ago`` (or thereabouts). This is what we will grade. Congratulations! You are ready for Problem Set 1.
+
