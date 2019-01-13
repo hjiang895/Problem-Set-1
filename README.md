@@ -35,38 +35,49 @@
 
 8. Type ``java -version`` and you should see something like this:
 
-``java version "1.8.0_191``
-``Java(TM) SE Runtime Environment (build 1.8.0_191-b12)``
-``Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)``
+```java
 
+java version "1.8.0_191"
+Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
+
+```
 
 9. Type ``javac -version`` and you should see something like this:
 
-``javac 1.8.0_191``
+```java
+
+javac 1.8.0_191
+
+```
 
 #### Max OSX users ####
 1. Launch a Terminal. You can do this by finding the Terminal app in your Applications folder, or by going up to the magnifying glass in the upper right corner of your screen and then searching for Terminal.
 
 2. At the prompt in Termianl, type ``java -version`` and you should see something like this:
 
-``java version "1.8.0_191``
-``Java(TM) SE Runtime Environment (build 1.8.0_191-b12)``
-``Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)``
+```java
+
+java version "1.8.0_191"
+Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
+
+```
 
 
 3. Type ``javac -version`` and you should see something like this:
 
-``javac 1.8.0_191``
+```java
+
+javac 1.8.0_191
+
+```
 
 
+### Part 6: Using GitHub 
+1. Create a folder on your computer for this class called ``CS2`` or ``CS1102``. I have mine on my Desktop so it's easy to find, but you are free to put it wherever is convenient for you.
 
-
-### Part 4: Using GitHub 
-1. Create a folder on your computer for this class called CS2 or CS1102. I have mine on my Desktop so it's easy to find.
-
-2. By now you should have received an email with an invitation to accept Problem Set 0.5. If you didn't receive the email or can't find it, you can find the link to the invitation on Canvas. Accept the invitation, which will create a repository just for you to use to complete this assignment.
-
-3. Follow the link to the repository that was created, and locate the green "Clone or download" on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, as shown below.
+2. Remember how you got here by creating a repository after accepting an invitation from GitHub Classroom? Look up at the top of this page, and locate the green ``Clone or download`` on the right. Click that button, and then copy the the URL beginning with ``https://`` that appears, as shown below.
 
 <img src="img/clone.png" width="700"  />
 
