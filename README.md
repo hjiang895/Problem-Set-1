@@ -83,11 +83,11 @@ javac 1.8.0_191
 If you have never used Java before, I recommend that you use Atom to write and compile your code for this class. If you have used IntelliJ or Eclipse or another IDE in the past for Java development, you can continue to do so, but I will provide support only for Atom. If you decide to use Atom, follow these instructions to install and configure Atom.
 
 
-1. [Download Atom](https://atom.io). Double click the downloaded file to unzip it (if necessary), then move Atom to a place on your computer where it will be easy to find (e.g., in the Applications folder or on your desktop).
+1. [Download Atom](https://atom.io). Double click the downloaded file to unzip it (if necessary), then move Atom **out of your Downloads folder** to a place on your computer where it will be easy to find (e.g., in the Applications folder or on your desktop).
 
-2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame. (If all these windows keep popping up when start Atom, you can turn them off in the Preferences and by clicking on the ``Do not show Welcome message`` on the Welcome tab.)
+2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame. (If all these windows keep popping up when start Atom, you can turn them off in the Preferences.)
 
-3. You now need to install an Atom package that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu. You can also access the settings via a keyboard shortcut: in MacOS hold down the ``command`` key and type a comma; in Windows, hold down the ``control`` key and type a comma.
+3. You now need to install an Atom package that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu.
 
 <img src="img/atommenu.png" width="300"  />
 
