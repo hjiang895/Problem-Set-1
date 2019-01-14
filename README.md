@@ -112,11 +112,11 @@ We will be using git and GitHub to distribute and collect problem sets. Using Gi
 
 4. In the pop-up window that opens, start typing ``GitHub``, and the GitHub: commands will appear. Select ``GitHub: Clone``.
 
-5. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 followed by the name of your respository in the second box. Here's what the box looks like on my computer:
+5. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 followed by the name of your respository in the second box. Here's what the box looks like on my computer. You can see that the repository URL ends in `ps1.git`, while the destination directory ends in `ps1`. Yours will look similar, except the repository URL will end in `ps1-yourusername.git`, and you should choose a directory on your computer that ends in `ps1-yourusername`.
 
 <img src="img/clone-window.png" width="700"  />
 
-6. Click the ``Clone`` button. This will copy your personal `ps1` repository to your computer. If you get an error message in red letters, you are probably not following the directions, so try again!
+6. Click the ``Clone`` button. This will copy your personal `ps1-yourusername` repository to your computer. If you get an error message in red letters, you are probably not following the directions, so try again!
 
 **NOTE:** If you end up with an empty repository following these instructions, [use the GitHub Desktop app](https://desktop.github.com) to do your cloning and your other GitHub activities, as needed. You are free to use the GitHub Desktop application for this class.
 
