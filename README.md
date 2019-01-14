@@ -112,16 +112,18 @@ We will be using git and GitHub to distribute and collect problem sets. Using Gi
 
 4. In the pop-up window that opens, start typing ``GitHub``, and the GitHub: commands will appear. Select ``GitHub: Clone``.
 
-5. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 in the second box.
+5. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 followed by the name of your respository in the second box. Here's what the box looks like on my computer:
 
-6. Click the ``Clone`` button. This will copy your personal `ps1` repository to your computer. 
+<img src="img/clone-window.png" width="700"  />
+
+6. Click the ``Clone`` button. This will copy your personal `ps1` repository to your computer. If you get an error message in red letters, you are probably not following the directions, so try again!
 
 **NOTE:** If you end up with an empty repository following these instructions, [use the GitHub Desktop app](https://desktop.github.com) to do your cloning and your other GitHub activities, as needed. You are free to use the GitHub Desktop application for this class.
 
 
 ### Part 8: Edit a file and push edits to GitHub
 
-1. If you did Part 7 correctly, you should see the contents of the repository in Atom. If you can't see the ``ps1-yourusername`` repository, then go to `File -> Open`, and navigate to your class folder, where you should find your local respoitory. Select `ps1-yourusername`  and click ``Open``. (Do not select your class folder or the `src` folder.)
+1. If you did Part 7 correctly, you should see the contents of the repository in Atom. If you can't see the ``ps1-yourusername`` repository, then go to `File -> Open`, and navigate to your class folder, where you should find your local respoitory. Select `ps1-yourusername`  and click ``Open``. **Do not select your class folder or the `src` folder!** 
 
 2. You should now see something like this, below, with a tree structure showing the files in your current directory in the left pane and an empty pane on the right. (Feel free to close any of the pesky Welcome tabs and panes that Atom likes to open up.)
 
@@ -148,7 +150,7 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 8. Click ``Commit to master``.
 
-9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. 
+9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. This is the part people always forget, so don't forget!
 
-10. Go to GitHub and find your respository for this problem set. You should see the changes reflected in your problem set repository and see ``last updated 1 minute ago`` (or thereabouts). This is what we will grade. Congratulations! 
+10. Go to GitHub and confirm that your respository has been updated. You should see the changes reflected in your problem set repository and see ``last updated 1 minute ago`` (or thereabouts). This is what we will grade. Congratulations! 
 
