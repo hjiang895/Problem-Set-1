@@ -85,7 +85,7 @@ If you have never used Java before, I recommend that you use Atom to write and c
 
 1. [Download Atom](https://atom.io). Double click the downloaded file to unzip it (if necessary), then move Atom **out of your Downloads folder** to a place on your computer where it will be easy to find (e.g., in the Applications folder or on your desktop).
 
-2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame. (If all these windows keep popping up when start Atom, you can turn them off in the Preferences.)
+2. Launch Atom. There are a few tabs or frames that open automatically, which you can close by clicking the "X" in the upper right corner of the tab or frame. (If all these windows keep popping up when start Atom, you can disable them.)
 
 3. You now need to install an Atom package that will customize Atom for use in this class. From Atom's menu bar, click the Atom menu, and then select Preferences to open the Settings menu.
 
